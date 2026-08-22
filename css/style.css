@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: bisque;
+}
+
+.hero {
+    padding: 40px 0 40px 0;
+}
+
+.hero__title-wrapper {
+    max-width: 65%;
+    background-color: azure;
+    margin: 0 auto 64px;
+    padding: 12px 0;
+    border-radius: 12px;
+}
+
+.hero__title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.card {
+    background-color: white;
+    max-width: 50%;
+    margin-inline: auto;
+    margin-bottom: 24px;
+    padding: 32px;
+    display: flex;
+    transition: max-width 300ms ease-out, 
+    background-color 300ms ease-out;
+}
+.card:hover {
+    max-width: 55%;
+    background-color: azure;
+}
+
+.advice__title-wrapper {
+    max-width: 70%;
+    background-color: azure;
+    border-radius: 12px;
+    margin: 0 auto 64px;
+    padding: 12px 0;
+
+}
+
+.advice__title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.advice__list {
+background-color: white;
+max-width: 50%;
+margin-inline: auto;
+margin-bottom: 24px;
+padding: 52px;
+}
+
+.advice__item-link {
+font-size: 24px;
+font-weight: 900;
+color: blue;
+transition: color 300ms ease-out;
+}
+
+.advice__item-link:hover,
+.advice__item-link:focus {
+    color: rgb(5, 5, 82);
+}
